@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <table class="table">
+            <thead id="theader" class="sticky">
+                <th >
+                    <p>ID</p>
+                    <p id="idHeader"><button id="sortIdByDesc">Сортировать по убыванию</button></p>
+                    
+                    <p><input type="number" placeholder="Найти" id="idSearch"></p>
+                </th>
+                <th >
+                    <p>Название</p>
+                    <p id='titleHeader'><button id="sortTitleByDesc">Сортировать по алфавиту</button></p>
+                    <p><input type="text" placeholder="Найти" id="titleSearch"></p>
+                </th>
+            </thead>
+            <tbody id="tbody" >
+    
+            </tbody>
+        </table>
+    </div>
+    <ul id="pagination">
+        
+    </ul>
+    
+
+    
+    <script src="pagination.js"></script>
+</body>
+</html>
